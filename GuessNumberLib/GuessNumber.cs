@@ -8,6 +8,12 @@ namespace GuessNumberLib
         private int _triesMade;
         private int _lastGuess;
 
+        public void GuessTheNumber()
+        {
+            var random = new Random();
+            numberToGuess = random.Next(1, 100);
+        }
+
         public string Feedback
         {
             get
