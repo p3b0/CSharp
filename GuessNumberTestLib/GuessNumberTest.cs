@@ -8,7 +8,7 @@ namespace GuessNumberTestLib
     public class GuessNumberTest
     {
         [TestMethod]
-        public void TestMethod1()
+        public void NewGameReturnCorrectFeedback()
         {
             var sut = new GuessNumber();
             Assert.AreEqual("Guess a number between 1 and 100.", sut.Feedback);
