@@ -32,7 +32,7 @@ namespace AppendText
 
         private void button3_Click(object sender, EventArgs e)
         {
-            var content = "";
+            string content = "";
             saveFileDialog1.ShowDialog();
             content = File.ReadAllText(openFileDialog1.FileName);
             content += File.ReadAllText(openFileDialog2.FileName);
