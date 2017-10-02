@@ -8,7 +8,7 @@ namespace Dice
 {
     public class Dices
     {
-        public void generateDice()
+        public void ThrowTheDice()
         {
 
         }
