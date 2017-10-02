@@ -33,6 +33,7 @@ namespace ListfolderFiles
             foreach (var file in d.GetFiles("*.txt"))
             {
                 listBox1.Items.Add(file);
+                comboBox1.Items.Add(file);
             }
         }
     }
