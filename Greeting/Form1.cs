@@ -21,14 +21,9 @@ namespace Greeting
         {
             int maleOrFemale = int.Parse(textBox3.Text.Substring(9,1));
             if ((maleOrFemale % 1) != 0)
-            {
                 MessageBox.Show("Hej! fru " + textBox2.Text + ".");
-            }
             else
-            {
                 MessageBox.Show("Hej! herr " + textBox2.Text + ".");
-            }
-            
         }
     }
 }
