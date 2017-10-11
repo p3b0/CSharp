@@ -89,6 +89,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RegExAccounting", "RegExAcc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SieImportTest", "SieImportTest\SieImportTest.csproj", "{164898D5-0191-457C-AAAC-6EFB20B33137}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountLib", "AccountLib\AccountLib.csproj", "{837E7940-91E8-4449-953C-07355E53A203}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -207,6 +209,10 @@ Global
 		{164898D5-0191-457C-AAAC-6EFB20B33137}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{164898D5-0191-457C-AAAC-6EFB20B33137}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{164898D5-0191-457C-AAAC-6EFB20B33137}.Release|Any CPU.Build.0 = Release|Any CPU
+		{837E7940-91E8-4449-953C-07355E53A203}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{837E7940-91E8-4449-953C-07355E53A203}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{837E7940-91E8-4449-953C-07355E53A203}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{837E7940-91E8-4449-953C-07355E53A203}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -229,6 +235,7 @@ Global
 		{2F78DE03-F2DA-485A-B6AE-79B74C1A2BD9} = {6539B9E0-7BF2-4585-AD1F-DF7CCAA71102}
 		{6D2FDC3F-0871-4DA2-9345-F3FE649800D5} = {69A429A6-6DBC-450D-B40D-699A6F7839D9}
 		{164898D5-0191-457C-AAAC-6EFB20B33137} = {832C32C7-FE71-4E31-80C4-1FF694AB4763}
+		{837E7940-91E8-4449-953C-07355E53A203} = {832C32C7-FE71-4E31-80C4-1FF694AB4763}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2F24F730-EE1B-4D8E-86DA-E1EC27CB103B}
