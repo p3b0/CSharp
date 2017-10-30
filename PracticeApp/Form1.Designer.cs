@@ -36,6 +36,11 @@
             this.lblNumber = new System.Windows.Forms.Label();
             this.lblBirthday = new System.Windows.Forms.Label();
             this.chkConvert = new System.Windows.Forms.CheckBox();
+            this.btnOpenFile = new System.Windows.Forms.Button();
+            this.lblPath = new System.Windows.Forms.Label();
+            this.ofdOpenFile = new System.Windows.Forms.OpenFileDialog();
+            this.btnConvert = new System.Windows.Forms.Button();
+            this.dlgSaveFile = new System.Windows.Forms.SaveFileDialog();
             this.SuspendLayout();
             // 
             // btnSave
@@ -108,11 +113,48 @@
             this.chkConvert.UseVisualStyleBackColor = true;
             this.chkConvert.CheckedChanged += new System.EventHandler(this.ChkConvert_CheckedChanged);
             // 
+            // btnOpenFile
+            // 
+            this.btnOpenFile.Location = new System.Drawing.Point(29, 154);
+            this.btnOpenFile.Name = "btnOpenFile";
+            this.btnOpenFile.Size = new System.Drawing.Size(78, 24);
+            this.btnOpenFile.TabIndex = 8;
+            this.btnOpenFile.Text = "Välj fil";
+            this.btnOpenFile.UseVisualStyleBackColor = true;
+            this.btnOpenFile.Click += new System.EventHandler(this.BtnOpenFile_Click);
+            // 
+            // lblPath
+            // 
+            this.lblPath.AutoSize = true;
+            this.lblPath.Location = new System.Drawing.Point(28, 181);
+            this.lblPath.Name = "lblPath";
+            this.lblPath.Size = new System.Drawing.Size(35, 13);
+            this.lblPath.TabIndex = 10;
+            this.lblPath.Text = "label1";
+            this.lblPath.Click += new System.EventHandler(this.Label1_Click);
+            // 
+            // ofdOpenFile
+            // 
+            this.ofdOpenFile.FileName = "openFileDialog1";
+            // 
+            // btnConvert
+            // 
+            this.btnConvert.Location = new System.Drawing.Point(29, 216);
+            this.btnConvert.Name = "btnConvert";
+            this.btnConvert.Size = new System.Drawing.Size(182, 24);
+            this.btnConvert.TabIndex = 11;
+            this.btnConvert.Text = "Konvertera";
+            this.btnConvert.UseVisualStyleBackColor = true;
+            this.btnConvert.Click += new System.EventHandler(this.BtnConvert_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(240, 155);
+            this.ClientSize = new System.Drawing.Size(240, 251);
+            this.Controls.Add(this.btnConvert);
+            this.Controls.Add(this.lblPath);
+            this.Controls.Add(this.btnOpenFile);
             this.Controls.Add(this.chkConvert);
             this.Controls.Add(this.lblBirthday);
             this.Controls.Add(this.lblNumber);
@@ -140,6 +182,11 @@
         private System.Windows.Forms.Label lblNumber;
         private System.Windows.Forms.Label lblBirthday;
         private System.Windows.Forms.CheckBox chkConvert;
+        private System.Windows.Forms.Button btnOpenFile;
+        private System.Windows.Forms.Label lblPath;
+        private System.Windows.Forms.OpenFileDialog ofdOpenFile;
+        private System.Windows.Forms.Button btnConvert;
+        private System.Windows.Forms.SaveFileDialog dlgSaveFile;
     }
 }
 

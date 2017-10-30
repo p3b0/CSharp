@@ -18,5 +18,21 @@ namespace PracticeLib
             content += Number;
             return content;
         }
+
+        public string ConvertText(string row)
+        {
+            string[] tokens = row.Split(';');
+            var firstName = tokens[0].ToUpper();
+            var lastName = tokens[1].ToUpper();
+            var years = DateTime.Now.Year - int.Parse(tokens[2]);
+            var phone = tokens[3];
+            var message = $"{firstName} {lastName} är {years} år gammal och har telefonnumret {phone}.";
+            return message;
+        }
+
+        public void SaveConvertedText()
+        {
+            
+        }
     }
 }
